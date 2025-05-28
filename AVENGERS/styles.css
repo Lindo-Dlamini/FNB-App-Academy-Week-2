@@ -1,0 +1,114 @@
+#menu-bar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(219, 45, 45);
+    padding-top: 20px;
+    text-align: center;
+    
+}
+#menu-bar a{
+    text-decoration: none;
+    color: silver;
+    font-family: Arial, Helvetica;
+    font-weight: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+#menu-bar a:hover{
+    color: cornflowerblue;
+}
+
+body{
+padding: 20px;
+ background-color: black;   
+}
+
+
+#intro h3{
+    color: red;
+    font-family: Arial, Helvetica;
+    text-align: center;
+}
+
+#intro h2{
+    color: red;
+    font-family: Arial, Helvetica;
+    text-align: center;
+}
+
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 15px; 
+}
+
+.gallery img {
+  width: 100%; 
+  height: auto; 
+}
+
+h4{
+    color: red;
+}
+
+p{
+    color: white;
+}
+
+
+
+
+h2 {
+margin-top: 0;
+border-bottom: 3px solid red;
+padding-bottom: 10px;
+}
+
+form{
+    border: 5px solid red;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding-top: 7px;
+    padding-left: 10px;
+    top: 50%;
+    left: 50%;
+    margin-top: 120px;
+    width: 250px;
+    height: 300px;
+    display:block;
+    align-items: center;
+}
+button{
+    color: rgb(240, 12, 12);
+    padding: 4px;
+    margin-top: 7px;
+    align-self: center;
+}
+button:hover{
+    background-color: rgba(67, 74, 83, 0.205);
+}
+
+label{
+    color: brown;
+    padding-top: 10px;
+}
+
+input{
+    display: block;
+    width: 90%;
+    margin: 3px;
+}
+
+#message-input{
+    max-height: 90px;
+    min-height: 90px;
+    top: 0;
+    margin: 0;
+    min-width: 90%;
+    max-width: 90%;
+    
+}
